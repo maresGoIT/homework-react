@@ -1,3 +1,6 @@
+import Header from "./Header";
+import Test from "./Test";
+
 export const App = () => {
   return (
     <div
@@ -10,6 +13,8 @@ export const App = () => {
         color: '#010101'
       }}
     >
+      <Header />
+      <Test />
       React homework template
     </div>
   );
